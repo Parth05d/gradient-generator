@@ -92,6 +92,19 @@ function App() {
           />
         </div>
       </div>
+      <footer className="text-center p-4 bg-transparent text-white/70 absolute bottom-0 w-full">
+        <p>
+          Made with ❤️ by{" "}
+          <a
+            href="https://github.com/Parth05d"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold hover:text-white transition"
+          >
+            Parth Darji
+          </a>
+        </p>
+      </footer>
     </>
   );
 }
